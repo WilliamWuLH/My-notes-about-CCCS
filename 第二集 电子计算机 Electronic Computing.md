@@ -10,9 +10,9 @@
 
 继电器：用电控制的机械开关。继电器里有根“控制线路”，控制电路是开还是关，“控制线路”连着一个线圈，当电流流过线圈，线圈产生电磁场，吸引金属臂，从而闭合电路，你可以把继电器想成水龙头。
 
-![image-20200207223659379](.\image\image-20200207223659379.png)
+![image-20200207223659379](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200207223659379.png)
 
-![image-20200207223808733](.\image\image-20200207223808733.png)
+![image-20200207223808733](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200207223808733.png)
 
 这个控制电路可以连到其他电路，比如马达。
 
@@ -26,7 +26,7 @@
 
 4. **<u>BUG：</u>**这些巨大，黑色，温暖的机器也会吸引昆虫，1947年9月，哈佛马克2型的操作员从故障继电器中拔出一只死虫，**Grace Hopper**曾说："From then on, when anything went wrong with a computer,we said it had bugs in it."这就是“bug”的来源。
 
-   ![image-20200207230512568](.\image\image-20200207230512568.png)
+   ![image-20200207230512568](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200207230512568.png)
 
 #### 电子计算机：真空管
 
@@ -52,9 +52,9 @@
 
 控制线连到一个“门”电极，通过改变“门”的电荷，可以控制半导体材料的导电性，来允许或不允许电流流动。
 
-![image-20200208132900748](.\image\image-20200208132900748.png)
+![image-20200208132900748](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200208132900748.png)
 
-![image-20200208132956200](.\image\image-20200208132956200.png)
+![image-20200208132956200](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200208132956200.png)
 
 晶体管每秒可以开关10000次，比起真空管，晶体管是固态的，并可以远小于继电器或真空管，用于制造更小更便宜的计算机，例如1957年发布的IBM 608，这是第一个完全用晶体管，而且消费者可以买到的计算机，它有3000个晶体管，每秒执行4500次加法，每秒能执行80次左右的乘除法。
 
