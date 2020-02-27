@@ -31,9 +31,9 @@ NOT操作把布尔值反转，把true进行NOT就会变成false，反之亦然�
 
 使用晶体管实现NOT GATE：把控制线当做输入（input），把上面的电极当做输出（output），下面的电极接地。
 
-<img src=".\image\image-20200208160130051.png" alt="image-20200208160130051" style="zoom:50%;" />
+<img src=".\image\image-20200208160314332.png" alt="image-20200208160314332" style="zoom:50%;" />
 
-<img src=".\image\image-20200208160314332.png" alt="image-20200208160314332" style="zoom:50%;" />![image-20200208160345472](.\image\image-20200208160345472.png)<img src=".\image\image-20200208160314332.png" alt="image-20200208160314332" style="zoom:50%;" />![image-20200208160345472](.\image\image-20200208160345472.png)
+![image-20200208160345472](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200208160345472.png)
 
 #### AND
 
@@ -80,8 +80,8 @@ OR操作有2个输入，1个输出。
 进行抽象：
 
 1. NOT门的画法是三角形前面一个圆点：<img src=".\image\image-20200208204825357.png" alt="image-20200208204825357"  />
-2. AND门：![image-20200208204928646](.\image\image-20200208204928646.png)
-3. OR门：![image-20200208205001206](.\image\image-20200208205001206.png)
+2. AND门：![image-20200208204928646](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200208204928646.png)
+3. OR门：![image-20200208205001206](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200208205001206.png)
 
 晶体管和电线依然在那里，只是用符号来代表。
 
@@ -100,6 +100,6 @@ XOR操作有2个输入，1个输出。
 
 可以通过前面提到的3种门来做XOR门：可以先放一个OR门，因为OR和XOR的逻辑表很相似，现在的问题是当A和B都为true时，OR的输出和想要的XOR输出不一样，通过以下的电路可以实现：
 
-![image-20200208210015191](.\image\image-20200208210015191.png)
+![image-20200208210015191](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200208210015191.png)
 
 XOR门：<img src=".\image\image-20200208210112131.png" alt="image-20200208210112131"  />
