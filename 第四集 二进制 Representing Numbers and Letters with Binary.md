@@ -8,11 +8,11 @@
 
 为了表示更大的数字，二进制需要更多的位数，拿二进制数10110111举例，用相同的方法转成十进制，计算如下：
 
-![image-20200209211605387](.\image\image-20200209211605387.png)
+![image-20200209211605387](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200209211605387.png)
 
 二进制的运算与十进制一样：
 
-![image-20200209211840978](.\image\image-20200209211840978.png)
+![image-20200209211840978](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200209211840978.png)
 
 #### 位
 
@@ -36,7 +36,7 @@
 
 除了负数和正数，计算机也要处理非整数，这叫“浮点数”（floating point numbers），因为小数点可以在数字间浮动。有好几种方法表示浮点数，最常见的是 IEEE 754 标准。它用类似科学计数法的方法来存十进制值，例如，625.9可以写成0.6259*10的3次方，这里有两个重要数字：.6259叫“有效位数”（significand），3是指数（exponent），在32位浮点数中，第1位表示数字的正负，接下来的8位存指数，剩下的23位存有效位数。
 
-![image-20200209223001226](.\image\image-20200209223001226.png)
+![image-20200209223001226](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200209223001226.png)
 
 #### 字母
 
