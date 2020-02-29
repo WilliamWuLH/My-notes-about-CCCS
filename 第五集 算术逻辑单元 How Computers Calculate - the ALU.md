@@ -26,11 +26,11 @@ ALU有2个单元，1个算术单元和1个逻辑单元。算术单元负责计�
 
 可以用以下电路实现，这个电路叫做“半加器”（half adder）。
 
-![image-20200210152059009](.\image\image-20200210152059009.png)
+![image-20200210152059009](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200210152059009.png)
 
 抽象化，把半加器封装成一个单独组件，两个输入A和B都是1位，两个输出SUM和CARRY，如下所示：
 
-![image-20200210152419094](.\image\image-20200210152419094.png)
+![image-20200210152419094](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200210152419094.png)
 
 #### 全加器
 
@@ -49,7 +49,7 @@ ALU有2个单元，1个算术单元和1个逻辑单元。算术单元负责计�
 
 可以用半加器实现全加器，先用半加器将A和B相加，然后把C输入到第二个半加器，最后用一个OR门检查进位是不是true。
 
-![image-20200210153743970](.\image\image-20200210153743970.png)
+![image-20200210153743970](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200210153743970.png)
 
 抽象化，把全加器作为独立组件，全加器会把A，B，C三个输入加起来，输出SUM和CARRY。
 
@@ -57,7 +57,7 @@ ALU有2个单元，1个算术单元和1个逻辑单元。算术单元负责计�
 
 有了新组件就可以实现两个8位数字的相加，把两个数字假设为A和B，从A和B的第一位（A0和B0）开始，此时不需要处理任何进位，因为这是第一次加法，所以可以用半加器来加这两个数字，输出为sum0；接着加A1和B1，因为A0和B0的结果有可能进位，所以这次要用全加器，除了A1和B1，还需要连上进位，输出为sum1，然后把这个全加器的进位连到下一个全加器的输出，处理A2和B2。以此类推把8个bit都搞定，这叫“8位行波进位加法器”（8-bit ripple carry adder）。
 
-![image-20200210154937001](.\image\image-20200210154937001.png)
+![image-20200210154937001](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200210154937001.png)
 
 #### 溢出
 
@@ -73,7 +73,7 @@ ALU的算术单元也能做一些其他的数学运算，一般支持8个操作�
 
 ALU的另一半：逻辑单元（Logic Unit），逻辑单元执行逻辑操作，例如AND，OR，NOT操作，也能做简单的数值测试，比如一个数字是不是负数。如下为检查ALU输出是否为0的电路，它用一堆OR门检查其中一位是否为1。
 
-![image-20200210162048598](.\image\image-20200210162048598.png)
+![image-20200210162048598](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200210162048598.png)
 
 英特尔74181只能处理4为输入，大概用了70个逻辑门，但是不能执行乘除。它向小型化迈出一大步，让计算机可以更强大更便宜。
 
@@ -81,6 +81,6 @@ ALU的另一半：逻辑单元（Logic Unit），逻辑单元执行逻辑操作�
 
 抽象化，用一个特殊符号来代表ALU，看起来像一个大“V”，如下所示：
 
-![image-20200210163023725](.\image\image-20200210163023725.png)
+![image-20200210163023725](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200210163023725.png)
 
 高级ALU有更多标志，以上的三个是基本都有的。
