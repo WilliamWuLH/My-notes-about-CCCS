@@ -16,3 +16,5 @@ Learning Resources:https://www.youtube.com/watch?v=tpIctyqH29Q&t=5s
 [第六集 寄存器&内存 Registers and RAM](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E5%85%AD%E9%9B%86%20%E5%AF%84%E5%AD%98%E5%99%A8&%E5%86%85%E5%AD%98%20Registers%20and%20RAM.md)
 
 [第七集 中央处理器（CPU） The Central Processing Unit](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E4%B8%83%E9%9B%86%20%E4%B8%AD%E5%A4%AE%E5%A4%84%E7%90%86%E5%99%A8%EF%BC%88CPU%EF%BC%89%20The%20Central%20Processing%20Unit.md)
+
+[第九集 高级CPU设计 Advanced CPU Design](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E4%B9%9D%E9%9B%86%20%E9%AB%98%E7%BA%A7CPU%E8%AE%BE%E8%AE%A1%20Advanced%20CPU%20Design.md)
