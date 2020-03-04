@@ -24,3 +24,5 @@ Learning Resources:https://www.youtube.com/watch?v=tpIctyqH29Q&t=5s
 [第十六集 软件工程 Software Engineering](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E5%8D%81%E5%85%AD%E9%9B%86%20%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%20Software%20Engineering.md)
 
 [第十八集 操作系统 Operating Systems](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E5%8D%81%E5%85%AB%E9%9B%86%20%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20Operating%20Systems.md)
+
+[第二十一集 压缩 Compression](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E9%9B%86%20%E5%8E%8B%E7%BC%A9%20Compression.md)
