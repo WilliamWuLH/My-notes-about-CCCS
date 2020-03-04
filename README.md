@@ -20,3 +20,7 @@ Learning Resources:https://www.youtube.com/watch?v=tpIctyqH29Q&t=5s
 [第九集 高级CPU设计 Advanced CPU Design](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E4%B9%9D%E9%9B%86%20%E9%AB%98%E7%BA%A7CPU%E8%AE%BE%E8%AE%A1%20Advanced%20CPU%20Design.md)
 
 [第十一集 编程语言发展史 The First Programming Languages](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E5%8D%81%E4%B8%80%E9%9B%86%20%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%8F%91%E5%B1%95%E5%8F%B2%20The%20First%20Programming%20Languages.md)
+
+[第十六集 软件工程 Software Engineering](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E5%8D%81%E5%85%AD%E9%9B%86%20%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%20Software%20Engineering.md)
+
+[第十八集 操作系统 Operating Systems](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E5%8D%81%E5%85%AB%E9%9B%86%20%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20Operating%20Systems.md)
