@@ -26,3 +26,5 @@ Learning Resources:https://www.youtube.com/watch?v=tpIctyqH29Q&t=5s
 [第十八集 操作系统 Operating Systems](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E5%8D%81%E5%85%AB%E9%9B%86%20%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20Operating%20Systems.md)
 
 [第二十一集 压缩 Compression](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E9%9B%86%20%E5%8E%8B%E7%BC%A9%20Compression.md)
+
+[第二十二集 命令行界面 Keyboards & Command Line Interfaces](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%8C%E9%9B%86%20%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%95%8C%E9%9D%A2%20Keyboards%20%26%20Command%20Line%20Interfaces.md)
