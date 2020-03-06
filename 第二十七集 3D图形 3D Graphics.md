@@ -10,11 +10,11 @@
 
 正交投影（orthographic projection）：立方体的各个边在投影中互相平行。
 
-![image-20200228231449493](.\image\image-20200228231449493.png)
+![image-20200228231449493](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200228231449493.png)
 
 透视投影（perspective projection）：在真实3D世界中，平行线段会在远处收敛于一点。
 
-![image-20200228231822468](.\image\image-20200228231822468.png)
+![image-20200228231822468](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200228231822468.png)
 
 在3D图形学中，三角形等称为“多边形”（polygons），一堆多边形的集合叫网格（mesh）。网格越密，表面越光滑，细节越多，意味着更多的计算量。游戏设计者要平衡角色的真实度和多边形数量，如果数量太多，帧率会下降到肉眼可感知，用户会觉得卡顿，因此有算法用来简化网格。
 
@@ -24,13 +24,13 @@
 
 3D图像需要填充，填充图形的经典算法叫扫描线渲染（Scanline Rendering）于1967年诞生于犹他州大学，要完成多边形转成一块填满像素的区域，首先铺一层像素网格，扫描线算法先读多边形的3个点，找最大和最小的Y值，只在这两点间工作，然后算法从上往下，一次处理一行，计算每一行和多边形相交的2个点，因为是三角形，如果相交一条边，必然相交另一条边，扫描线算法会填满2个相交点之间的像素。填充的速度叫填充速率（fillrate）。
 
-![image-20200229012551868](.\image\image-20200229012551868.png)
+![image-20200229012551868](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200229012551868.png)
 
 #### 抗锯齿
 
 这样的三角形比较丑，边缘全是锯齿，当像素较小时就不会很明显。一种减轻锯齿的方法叫抗锯齿（Antialiasing），与其每个像素都涂成一样的颜色，可以判断多边形切过像素的程度来调整颜色。如果像素在多边形内部就直接涂色，如果多边形划过像素则颜色就浅一些，这种边缘羽化的效果看着会更舒服。
 
-![image-20200229013211053](.\image\image-20200229013211053.png)
+![image-20200229013211053](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200229013211053.png)
 
 #### 画家算法
 
@@ -40,7 +40,7 @@
 
 还有一种方法叫做深度缓冲（Z-Buffering），这个算法不用排序所以速度更快，Z-Buffering算法会记录场景中每个像素和摄像机的距离，在内存里存一个数字矩阵，首先，每个像素的距离被初始化为“无限大”，然后Z-Buffering从列表里第一个多边形开始处理，它和扫描线算法逻辑相同，但不是给像素填充颜色，而是把多边形的距离和Z-Buffering里的距离进行对比，它总是记录更低的值，以此类推，因为没对多边形排序，所以后处理的多边形并不会总是覆盖前面的。Z-Buffering缓冲区完成之后，会和扫描线算法的改进高级版配合使用，不仅可以勘测到线的交叉点，还可以知道某像素是否在最终场景中可见。
 
-![image-20200229014523153](.\image\image-20200229014523153.png)
+![image-20200229014523153](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200229014523153.png)
 
 #### 背面剔除
 
@@ -54,7 +54,7 @@
 
 纹理（textures）在图形学中指外观而不是手感，纹理也有多种算法来做各种花哨效果，最简单的是纹理映射（texture mapping），在用扫描线算法填充单个多边形时，可以看看内存内的纹理图像决定像素用什么颜色，为了做到这点，需要把多边形坐标和纹理坐标对应起来。在扫描线算法填充像素时，纹理算法会查询纹理，从相应区域取平均颜色并填充多边形，重复这个过程就可以获得纹理。
 
-![image-20200229123130737](.\image\image-20200229123130737.png)
+![image-20200229123130737](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200229123130737.png)
 
 #### GPU
 
