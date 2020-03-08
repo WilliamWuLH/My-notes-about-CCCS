@@ -20,13 +20,13 @@
 
 因为 IP 是一个非常底层的协议，数据包的头部（前面）只有目标地址，头部存“关于数据的数据”，也叫元数据（metadata），这意味着当数据包到达对方电脑，对方不知道把包交给哪个程序，因此需要在 IP 之上开发更高级的协议。
 
-![image-20200301152045069](.\image\image-20200301152045069.png)
+![image-20200301152045069](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200301152045069.png)
 
 #### 用户数据报协议 User Datagram Protocol——UDP
 
 这些协议里最简单最常见的叫“用户数据报协议”（User Datagram Protocol——UDP）。UDP 也有头部，这个头部位于数据前面，头部里包含有用的信息，信息之一是端口号，每个想访问网络的程序都要向操作系统申请一个端口号，例如 Skype 会申请端口 3478，当一个数据包到达时，接收方的操作系统会读 UDP 头部，读里面的端口号，如果看到端口号是 3478，就会把数据包交给 Skype。
 
-![image-20200301153220210](.\image\image-20200301153220210.png)
+![image-20200301153220210](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200301153220210.png)
 
 总结：IP 负责把数据包送到正确的计算机，UDP 负责把数据包送到正确的程序。UDP 头部里还有“校验和”，用于检查数据是否正确，正如“校验和”这个名字所暗示的一样，检查方式是把数据求和来对比。例如，在发送数据包前，电脑会把所有数据加在一起算出“校验和”，在 UDP 中“校验和”以16位形式存储，如果算出来的和超过了16位所能表示的最大值，高位数会被扔掉，保留低位；当接收方电脑收到这个数据包，它会重复这个步骤把所有数据加在一起，如果结果和头部中的校验和一致则代表一切正常，如果不一致则是数据被损坏了，也许是传输时碰到了功率波动，或者是电缆出现了故障。
 
@@ -36,7 +36,7 @@ Unfortunately，UDP 不提供数据修复或者数据重发的机制，接收方
 
 要实现所有数据必须到达的美好愿望，就需要用“传输控制协议”（Transmission Control Protocol——TCP）。TCP 和 UDP 一样，头部也在存数据前面，因此人们称这个组合为 TCP/IP。
 
-![image-20200301173057805](.\image\image-20200301173057805.png)
+![image-20200301173057805](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200301173057805.png)
 
 就像 UDP 一样，TCP 头部也有端口号和校验和，但是 TCP 有更高级的功能，介绍重要的几个：
 
@@ -58,7 +58,7 @@ TCP 最大的缺点是确认码数据包把数量翻了一倍，但是并没有�
 
 如今有三千万个注册域名，所以为了更好管理，DNS 不是存成一个超级长的列表，而是存成树状结构。顶级域名（Top Level Domains——TLD）在最顶部，比如 .com 和 .gov；下一层是二级域名（second level domains），比如 .com 下面有 google.com 等等；再下一层叫子域名（subdomains），比如 images.google.com 等等。这些数据散布在很多 DNS 服务器上，不同服务器负责树的不同部分。
 
-![image-20200301175323989](.\image\image-20200301175323989.png)
+![image-20200301175323989](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200301175323989.png)
 
 #### 开放式系统互联通信参考模型 Open System Interconnection model——OSI
 
@@ -68,4 +68,4 @@ TCP 最大的缺点是确认码数据包把数量翻了一倍，但是并没有�
 
 OSI 模型还有两层，“表示层”（presentation layer）和“应用程序层”（application layer），其中有浏览器，Skype，HTML解码等等。
 
-![image-20200302012245696](.\image\image-20200302012245696.png)
+![image-20200302012245696](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/image/image-20200302012245696.png)
