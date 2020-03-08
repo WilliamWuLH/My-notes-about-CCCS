@@ -30,3 +30,5 @@ Learning Resources:https://www.youtube.com/watch?v=tpIctyqH29Q&t=5s
 [第二十二集 命令行界面 Keyboards & Command Line Interfaces](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%8C%E9%9B%86%20%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%95%8C%E9%9D%A2%20Keyboards%20%26%20Command%20Line%20Interfaces.md)
 
 [第二十七集 3D图形 3D Graphics](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%83%E9%9B%86%203D%E5%9B%BE%E5%BD%A2%203D%20Graphics.md)
+
+[第二十八集 计算机网络 Computer Networks](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%85%AB%E9%9B%86%20%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20Computer%20Networks.md)
