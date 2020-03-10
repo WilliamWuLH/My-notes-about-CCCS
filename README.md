@@ -36,3 +36,5 @@ Learning Resources:https://www.youtube.com/watch?v=tpIctyqH29Q&t=5s
 [第二十九集 互联网 The Internet](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B9%9D%E9%9B%86%20%E4%BA%92%E8%81%94%E7%BD%91%20The%20Internet.md)
 
 [第三十集 万维网 The World Wide Web](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E4%B8%89%E5%8D%81%E9%9B%86%20%E4%B8%87%E7%BB%B4%E7%BD%91%20The%20World%20Wide%20Web.md)
+
+[第三十二集 黑客&攻击 Hacker & Cyber Attacks](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%BA%8C%E9%9B%86%20%E9%BB%91%E5%AE%A2%26%E6%94%BB%E5%87%BB%20Hacker%20%26%20Cyber%20Attacks.md)
