@@ -40,3 +40,5 @@ Learning Resources:https://www.youtube.com/watch?v=tpIctyqH29Q&t=5s
 [第三十二集 黑客&攻击 Hacker & Cyber Attacks](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%BA%8C%E9%9B%86%20%E9%BB%91%E5%AE%A2%26%E6%94%BB%E5%87%BB%20Hacker%20%26%20Cyber%20Attacks.md)
 
 [第三十四集 机器学习&人工智能 Machine Learning & Artificial Intelligence](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E4%B8%89%E5%8D%81%E5%9B%9B%E9%9B%86%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%20Machine%20Learning%20&%20Artificial%20Intelligence.md)
+
+[第三十五集 计算机视觉 Computer Vision](https://github.com/WilliamWuLH/My-notes-about-CCCS/blob/master/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%BA%94%E9%9B%86%20%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%20Computer%20Vision.md)
